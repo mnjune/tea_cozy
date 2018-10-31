@@ -1,0 +1,175 @@
+
+/* universal styling */
+* {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header
+{
+
+}
+
+h2 h4 {
+  font-weight: bold;
+}
+
+
+/* header */
+.header {
+  margin: 0 auto;
+
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  z-index: 3;
+
+  border-bottom: 1px solid seashell;
+}
+
+.header img #logo {
+  height: 50px;
+}
+
+nav {
+ padding: 20px;
+}
+
+nav span {
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+
+/* banner */
+#banner {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mission {
+  width: 1200px;
+}
+
+/* content */
+
+.content {
+  width: 1000px;
+
+  height: 700px;
+
+
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin-top: 60px;
+}
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.image img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.image .caption {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* locations */
+
+
+}
+.location h4 {
+  font-weight: normal;
+}
+.where {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.where h2 {
+  background: transparent;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+
+.location {
+
+  height: 300px;
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* contact */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+
+  height: 200px;
+  width: 100%;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+footer h5 {
+  margin-left: 20px;
+}
